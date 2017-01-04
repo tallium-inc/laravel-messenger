@@ -1,14 +1,12 @@
 {
-    "name": "cmgmyr/messenger",
-    "description": "Simple user messaging tool for Laravel",
+    "name": "tallium-inc/laravel-messenger",
+    "description": "Simple user messaging tool for Laravel (MongoDB)",
     "keywords": ["laravel", "messenger", "messaging", "user messaging"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Gmyr",
-            "email": "cmgmyr@gmail.com",
-            "homepage": "https://github.com/cmgmyr",
-            "role": "Developer"
+            "name": "Tallium",
+            "email": "nikolayb@designcontest.com"
         }
     ],
     "require": {
@@ -16,7 +14,8 @@
         "illuminate/config": "~5.0",
         "illuminate/support": "~5.0",
         "illuminate/database": "~5.0",
-        "nesbot/carbon": "~1.0"
+        "nesbot/carbon": "~1.0",
+        "jenssegers/mongodb": "3.0.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",

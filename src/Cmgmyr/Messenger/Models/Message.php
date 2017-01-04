@@ -2,16 +2,16 @@
 
 namespace Cmgmyr\Messenger\Models;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model;
 
-class Message extends Eloquent
+class Message extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'messages';
+    protected $collection = 'messages';
 
     /**
      * The relationships that should be touched on save.

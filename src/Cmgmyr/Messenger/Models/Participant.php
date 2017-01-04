@@ -2,10 +2,10 @@
 
 namespace Cmgmyr\Messenger\Models;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Jenssegers\Mongodb\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 
-class Participant extends Eloquent
+class Participant extends Model
 {
     use SoftDeletes;
 
@@ -14,7 +14,7 @@ class Participant extends Eloquent
      *
      * @var string
      */
-    protected $table = 'participants';
+    protected $collection = 'participants';
 
     /**
      * The attributes that can be set with Mass Assignment.
