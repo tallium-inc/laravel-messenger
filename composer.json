@@ -15,7 +15,7 @@
         "illuminate/support": "~5.0",
         "illuminate/database": "~5.0",
         "nesbot/carbon": "~1.0",
-        "jenssegers/mongodb": "3.0.*"
+        "jenssegers/mongodb": "3.*.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
